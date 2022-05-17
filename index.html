@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Frontend Mentor | Time tracking dashboard</title>
+</head>
+<body>
+    
+    <main class="main-container">
+
+
+        <!-- SECTION USER -->
+        <section class="user-container">
+            <div class="user-info">
+                <img src="images/image-jeremy.png" alt="Jeremy.png">
+                <div class="user-data">
+                    <p>Report for</p>
+                    <h1>Jeremy  Robson</h1>
+                </div>
+            </div>
+
+            <div class="user-period">
+                    <h3 id="daily" class="option">Daily</h3>
+                    <h3 id="weekly" class="option selected" >Weekly</h3>
+                    <h3 id="monthly" class="option" >Monthly</h3>
+            </div>
+        </section>
+
+        <!-- SECTION statistics -->
+        <section class="statistics-container">
+
+            <!-- WORK STATISTISC -->
+            <div class="card-container">
+                <div class="work-header"></div>
+                <div class="card-title">
+                    <h3>Work</h3>
+                    <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill="#BBC0FF" fill-rule="evenodd"/></svg>
+                </div>
+                <div class="card-hs-container">
+                        <h2 id="workHs">32hrs</h2>
+                        <p id="workTimeframes">Last Week - 36hrs</p>
+                </div>
+            </div>
+
+
+            <!-- PLAY STATISTISC -->
+            <div class="card-container">
+                <div class="play-header"></div>
+                <div class="card-title">
+                    <h3>Play</h3>
+                    <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill="#BBC0FF" fill-rule="evenodd"/></svg>
+                </div>
+                <div class="card-hs-container">
+                        <h2 id="playHs">10hrs</h2>
+                        <p id="playTimeframes">Last Week - 8hrs</p>
+                </div>
+            </div>
+
+            <!-- STUDY STATISTISC -->
+
+            <div class="card-container">
+                <div class="study-header"></div>
+                <div class="card-title">
+                    <h3>Study</h3>
+                    <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill="#BBC0FF" fill-rule="evenodd"/></svg>
+                </div>
+                <div class="card-hs-container">
+                        <h2 id="studyHs">4hrs</h2>
+                        <p id="studyTimeframes">Last Week - 7hrs</p>
+                </div>
+            </div>
+
+
+            <!-- Excercise STATISTISC -->
+
+            <div class="card-container">
+                <div class="excercise-header"></div>
+                <div class="card-title">
+                    <h3>Excercise</h3>
+                    <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill="#BBC0FF" fill-rule="evenodd"/></svg>
+                </div>
+                <div class="card-hs-container">
+                        <h2 id="excerciseHs">4hrs</h2>
+                        <p id="excerciseTimeframes">Last Week - 5hrs</p>
+                </div>
+            </div>
+
+
+            <!-- Social STATISTISC -->
+            <div class="card-container">
+                <div class="social-header"></div>
+                <div class="card-title">
+                    <h3>Social</h3>
+                    <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill="#BBC0FF" fill-rule="evenodd"/></svg>
+                </div>
+                <div class="card-hs-container">
+                        <h2 id="socialHs">5hrs</h2>
+                        <p id="socialTimeframes">Last Week - 10hrs</p>
+                </div>
+            </div>
+
+            <!-- Self Care STATISTISC -->
+
+            <div class="card-container">
+                <div class="selfCare-header"></div>
+                <div class="card-title">
+                    <h3>Self Care</h3>
+                    <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill="#BBC0FF" fill-rule="evenodd"/></svg>
+                </div>
+                <div class="card-hs-container">
+                        <h2 id="selfCareHs">2hrs</h2>
+                        <p id="selfCareTimeframes">Last Week - 2hrs</p>
+                </div>
+            </div>
+
+
+
+        </section>
+
+
+    </main>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
